@@ -1,0 +1,75 @@
+<html>
+<head>
+	<title>Guest List</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script>
+
+</head>
+<body>
+
+	<style>
+		.parallax {
+		  /* The image used */
+		  background-image: url("https://slideuplift.com/wp-content/uploads/edd/2021/03/ItemID-6904-Welcome-Slide-13-4x3-1.jpg");
+		
+		  /* Set a specific height */
+		  min-height: 500px; 
+		
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		</style>
+		</head>
+		<body>
+		
+		<p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
+		
+		<div class="parallax"></div>
+		
+		<div id="div1" style="color: black;border-color: darkorange;height:1000px;background-color:rgb(84, 159, 209);font-size:36px";>
+			𝐖𝐞𝐥𝐜𝐨𝐦𝐞! 𝐓𝐡𝐢𝐬 𝐰𝐞𝐛𝐩𝐚𝐠𝐞 𝐢𝐬 𝐚𝐥𝐥 𝐚𝐛𝐨𝐮𝐭 𝐚𝐝𝐝𝐢𝐧𝐠 𝐧𝐚𝐦𝐞𝐬 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐬𝐞𝐝 𝐠𝐮𝐞𝐬𝐭 𝐥𝐢𝐬𝐭. 𝐀𝐝𝐝 𝐧𝐚𝐦𝐞𝐬, 
+			𝐬𝐨𝐫𝐭 𝐭𝐡𝐞𝐦 𝐚𝐥𝐩𝐡𝐚𝐛𝐞𝐭𝐢𝐜𝐚𝐥𝐥𝐲 𝐚𝐧𝐝 𝐚𝐫𝐫𝐚𝐧𝐠𝐞! 𝐒𝐜𝐫𝐨𝐥𝐥 𝐝𝐨𝐰𝐧 𝐭𝐨 𝐤𝐧𝐨𝐰 𝐦𝐨𝐫𝐞...
+		</div>
+
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	<span title="Added A Tooltip">
+	ɢᴜᴇꜱᴛ ʟɪꜱᴛ(𝐒𝐜𝐫𝐨𝐥𝐥 𝐨𝐯𝐞𝐫 𝐦𝐞 :))
+</span>
+</h3>
+
+<div id="rows">
+
+<input type="text" placeholder="Enter name" id="name1">
+<button onclick="submit()" id="submit_button">Submit</button>
+<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+	
+<hr>
+
+<div id="display_name">
+</div>
+<hr>
+	<div id="Show1"><h3 id="h3">ɢᴜᴇꜱᴛ ʟɪꜱᴛ</h3>
+		<button onclick="show()" id="show">Show</button>
+		<p id="p1"></p></div>
+	
+<hr>
+<button onclick="sorting()" id="sort_button">
+	Sorted List
+</button>
+
+
+	<div id="sorted"></div>
+    </div>
+	<hr>
+	<input type="text" placeholder="Search name" id="s1">&nbsp;
+	<button onclick="searching()" id="srch">Search</button>
+	<p id="p2"></p>
+    
+</center>
+		
+</body>
+</html>
